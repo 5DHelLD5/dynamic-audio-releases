@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="72" viewBox="0 0 340 72" role="img" aria-label="Скачать для macOS">
+  <defs>
+    <linearGradient id="fill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#ec4899"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.28"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  </style>
+  <rect x="4" y="4" width="332" height="64" rx="32" fill="url(#fill)"/>
+  <rect x="4" y="4" width="332" height="64" rx="32" fill="url(#shine)"/>
+  <rect x="4.5" y="4.5" width="331" height="63" rx="31.5" fill="none" stroke="#fff" stroke-opacity="0.25"/>
+  <g fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M52 24v20"/>
+    <path d="M44 37l8 8 8-8"/>
+    <path d="M42 50h20"/>
+  </g>
+  <text x="78" y="44" font-size="21" font-weight="700" fill="#fff">Скачать для macOS</text>
+</svg>
