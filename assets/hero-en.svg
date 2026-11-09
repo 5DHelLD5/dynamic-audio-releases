@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="560" viewBox="0 0 1280 560" role="img" aria-label="Dynamic Audio: an island for the MacBook notch">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#06060b"/>
+      <stop offset="1" stop-color="#130a24"/>
+    </linearGradient>
+    <radialGradient id="violet" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="pink" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ec4899" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#ec4899" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cyan" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="underglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#a855f7" stop-opacity="0.75"/>
+      <stop offset="0.6" stop-color="#ec4899" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#ec4899" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="art" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f472b6"/>
+      <stop offset="0.5" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="bars" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.55" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+    <linearGradient id="progress" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.55" stop-color="#e9d5ff"/>
+      <stop offset="1" stop-color="#fbcfe8"/>
+    </linearGradient>
+    <clipPath id="island">
+      <path d="M326 0H954A14 14 0 0 0 940 14V108A42 42 0 0 1 898 150H382A42 42 0 0 1 340 108V14A14 14 0 0 0 326 0Z"/>
+    </clipPath>
+  </defs>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .bar { transform-box: fill-box; transform-origin: 50% 50%; animation: eq 1.1s ease-in-out infinite; }
+    @keyframes eq { 0%, 100% { transform: scaleY(0.3); } 50% { transform: scaleY(1); } }
+    .breathe { animation: breathe 3.4s ease-in-out infinite; }
+    @keyframes breathe { 0%, 100% { opacity: 0.55; } 50% { opacity: 1; } }
+    .progress { transform-box: fill-box; transform-origin: 0 50%; animation: progress 14s linear infinite; }
+    @keyframes progress { from { transform: scaleX(0.04); } to { transform: scaleX(1); } }
+    .float { animation: float 6s ease-in-out infinite; }
+    @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+    @media (prefers-reduced-motion: reduce) { .bar, .breathe, .progress, .float { animation: none; } }
+  </style>
+
+  <rect width="1280" height="560" fill="url(#bg)"/>
+  <circle class="breathe" cx="250" cy="430" r="320" fill="url(#violet)"/>
+  <circle class="breathe" style="animation-delay: -1.7s" cx="1050" cy="400" r="300" fill="url(#pink)"/>
+  <circle cx="640" cy="40" r="330" fill="url(#cyan)" opacity="0.6"/>
+
+  <!-- the top of the screen -->
+  <rect width="1280" height="34" fill="#000" opacity="0.45"/>
+
+  <!-- glow under the island -->
+  <ellipse class="breathe" cx="640" cy="160" rx="360" ry="70" fill="url(#underglow)"/>
+
+  <!-- the island -->
+  <g>
+    <path d="M326 0H954A14 14 0 0 0 940 14V108A42 42 0 0 1 898 150H382A42 42 0 0 1 340 108V14A14 14 0 0 0 326 0Z" fill="#000"/>
+    <g clip-path="url(#island)">
+      <rect class="float" x="372" y="50" width="76" height="76" rx="18" fill="url(#art)"/>
+      <path class="float" d="M420 66v32.5a9 9 0 1 1-4-7.5V74l-14 3.5v25a9 9 0 1 1-4-7.5V72z" fill="#fff" opacity="0.92"/>
+      <text x="468" y="84" font-size="24" font-weight="700" fill="#fff">Dynamic Audio</text>
+      <text x="468" y="111" font-size="16" fill="#a1a1aa">An island for the MacBook notch</text>
+      <g fill="url(#bars)">
+        <rect class="bar" x="772" y="60" width="8" height="56" rx="4" style="animation-duration: 0.9s"/>
+        <rect class="bar" x="786" y="60" width="8" height="56" rx="4" style="animation-duration: 1.3s; animation-delay: -0.2s"/>
+        <rect class="bar" x="800" y="60" width="8" height="56" rx="4" style="animation-duration: 1.05s; animation-delay: -0.5s"/>
+        <rect class="bar" x="814" y="60" width="8" height="56" rx="4" style="animation-duration: 0.8s; animation-delay: -0.1s"/>
+        <rect class="bar" x="828" y="60" width="8" height="56" rx="4" style="animation-duration: 1.2s; animation-delay: -0.7s"/>
+        <rect class="bar" x="842" y="60" width="8" height="56" rx="4" style="animation-duration: 0.95s; animation-delay: -0.35s"/>
+        <rect class="bar" x="856" y="60" width="8" height="56" rx="4" style="animation-duration: 1.4s; animation-delay: -0.9s"/>
+        <rect class="bar" x="870" y="60" width="8" height="56" rx="4" style="animation-duration: 1s; animation-delay: -0.6s"/>
+        <rect class="bar" x="884" y="60" width="8" height="56" rx="4" style="animation-duration: 1.15s; animation-delay: -0.25s"/>
+      </g>
+      <rect x="340" y="146" width="600" height="4" fill="#fff" opacity="0.12"/>
+      <rect class="progress" x="340" y="146" width="600" height="4" fill="url(#progress)"/>
+    </g>
+  </g>
+
+  <!-- title -->
+  <text x="640" y="292" text-anchor="middle" font-size="80" font-weight="800" letter-spacing="-2" fill="url(#title)">Dynamic Audio</text>
+  <text x="640" y="342" text-anchor="middle" font-size="24" fill="#c4c4cc">A live island for your Mac: music, visualizer, HUDs and AI agents</text>
+
+  <!-- chips -->
+  <g font-size="17" font-weight="600" fill="#e4e4e7">
+    <rect x="198" y="392" width="196" height="44" rx="22" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.12"/>
+    <circle cx="224" cy="414" r="6" fill="#f472b6"/>
+    <text x="240" y="420">Music and lyrics</text>
+
+    <rect x="410" y="392" width="214" height="44" rx="22" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.12"/>
+    <circle cx="436" cy="414" r="6" fill="#a855f7"/>
+    <text x="452" y="420">12 visualizers</text>
+
+    <rect x="640" y="392" width="196" height="44" rx="22" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.12"/>
+    <circle cx="666" cy="414" r="6" fill="#22d3ee"/>
+    <text x="682" y="420">Live HUDs</text>
+
+    <rect x="852" y="392" width="230" height="44" rx="22" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.12"/>
+    <circle cx="878" cy="414" r="6" fill="#fb923c"/>
+    <text x="894" y="420">Claude and Codex</text>
+  </g>
+
+  <text x="640" y="508" text-anchor="middle" font-size="15" fill="#71717a">macOS 27 or later · Apple silicon MacBook</text>
+</svg>

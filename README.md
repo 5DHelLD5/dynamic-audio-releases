@@ -1,264 +1,168 @@
 <p align="center">
-  <img src="assets/hero.svg" width="100%" alt="Dynamic Audio — остров для MacBook с вырезом">
+  <img src="assets/hero-en.svg" width="100%" alt="Dynamic Audio: an island for the MacBook notch">
 </p>
 
 <p align="center">
-  <a href="https://github.com/5DHelLD5/dynamic-audio-releases/releases/latest"><img src="https://img.shields.io/github/v/release/5DHelLD5/dynamic-audio-releases?style=for-the-badge&label=%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F&color=8b5cf6&labelColor=1f1b2e" alt="Последняя версия"></a>
-  <img src="https://img.shields.io/badge/macOS-27%2B-111111?style=for-the-badge&logo=apple&logoColor=white&labelColor=1f1b2e" alt="macOS 27 и новее">
-  <img src="https://img.shields.io/badge/Apple%20Silicon-M1%E2%80%A6M5-ec4899?style=for-the-badge&labelColor=1f1b2e" alt="Apple Silicon">
-  <a href="https://github.com/5DHelLD5/dynamic-audio-releases/releases"><img src="https://img.shields.io/github/downloads/5DHelLD5/dynamic-audio-releases/total?style=for-the-badge&label=%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B8&color=22d3ee&labelColor=1f1b2e" alt="Загрузки"></a>
+  <b>English</b> · <a href="README.ru.md">Русский</a>
 </p>
 
 <p align="center">
-  <b>Dynamic Audio</b> превращает вырез MacBook в живой остров, как на iPhone.<br>
-  Он показывает музыку и её спектр, громкость и яркость, батарею и наушники,<br>
-  а ещё работу Claude Code и Codex, погоду, таймеры и историю буфера обмена.
+  <a href="https://github.com/5DHelLD5/dynamic-audio-releases/releases/latest"><img src="https://img.shields.io/github/v/release/5DHelLD5/dynamic-audio-releases?style=for-the-badge&label=release&labelColor=1f1b2e&color=a855f7" alt="Latest release"></a>
+  <img src="https://img.shields.io/badge/macOS-27%2B-111111?style=for-the-badge&logo=apple&logoColor=white&labelColor=1f1b2e" alt="macOS 27 or later">
+  <img src="https://img.shields.io/badge/price-free-1fc27a?style=for-the-badge&labelColor=1f1b2e" alt="Free">
+  <a href="https://github.com/5DHelLD5/dynamic-audio-releases/releases"><img src="https://img.shields.io/github/downloads/5DHelLD5/dynamic-audio-releases/total?style=for-the-badge&label=downloads&labelColor=1f1b2e&color=ec4899" alt="Downloads"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/5DHelLD5/dynamic-audio-releases/releases/latest"><img src="assets/download.svg" width="300" alt="Скачать для macOS"></a>
+  Your MacBook's notch, alive. Music with a spectrum measured from the real sound,<br>
+  volume and brightness, battery and headphones, a file shelf, timers,<br>
+  and what Claude Code and Codex are doing right now.
 </p>
 
 <p align="center">
-  <a href="#-что-умеет">Возможности</a> ·
-  <a href="#-установка">Установка</a> ·
-  <a href="#-если-приложение-не-открывается">Не открывается?</a> ·
-  <a href="#-разрешения">Разрешения</a> ·
-  <a href="#-приватность">Приватность</a> ·
-  <a href="#-вопросы">Вопросы</a>
+  <a href="https://github.com/5DHelLD5/dynamic-audio-releases/releases/latest"><img src="assets/download-en.svg" width="300" alt="Download for macOS"></a>
+</p>
+
+<p align="center">
+  <a href="https://web.tribute.tg/d/TQG"><img src="https://img.shields.io/badge/Support_the_author-Tribute-229ED9?style=for-the-badge&labelColor=1f1b2e" alt="Support the author via Tribute"></a>
+</p>
+
+<p align="center">
+  <a href="#what-it-does">Features</a> ·
+  <a href="#install">Install</a> ·
+  <a href="#if-it-does-not-open">Won't open?</a> ·
+  <a href="#uninstall">Uninstall</a> ·
+  <a href="#privacy">Privacy</a> ·
+  <a href="#help">Help</a> ·
+  <a href="#support-the-author">Support</a>
 </p>
 
 ---
 
-## ✨ Что умеет
+## What it does
 
-### 🎵 Музыка
-- Обложка и **живой спектр** звука прямо у выреза. 12 стилей визуализатора: полосы, волна, неон, капли, горы, кардиограмма и другие.
-- **Текст песни** синхронно с музыкой: строка под вырезом, караоке или весь текст. Тексты берутся из Яндекс Музыки, LRCLIB и NetEase.
-- Развёрнутый плеер: перемотка, громкость, «нравится», AirPlay, таймер сна с плавным затуханием.
-- Работает с любым плеером, который виден в «Пункте управления» macOS: Яндекс Музыка, Apple Music, Spotify, браузер.
+### Music
+- The cover and a **live spectrum** right at the notch. The spectrum comes from your Mac's actual audio, measured as it plays and never recorded.
+- An expanded player with seeking, volume, likes, AirPlay and a sleep timer that fades out.
+- Works with any player macOS shows in Control Center.
 
-### 🔔 Уведомления, которые хочется рассматривать
-Громкость и яркость со шкалой, процентами и свечением. Батарея и зарядка, AirPods с зарядом каждого наушника, Caps Lock, раскладка, «Скопировано» и «Вставлено», снимки экрана.
-
-<p align="center">
-  <img src="assets/volume.png" width="440" alt="Громкость">
-  <img src="assets/brightness.png" width="440" alt="Яркость">
-</p>
-
-### ✳️ Claude Code и Codex
-Пока ИИ-агент работает, остров показывает, над чем именно: «Правка · Hero.tsx» или «Терминал · pytest». Когда агент закончил или ждёт ответа, всплывает карточка со звуком. Там же видно, **сколько осталось лимитов** подписки на 5 часов и на неделю.
+### HUDs worth looking at
+Volume and brightness with a scale and percentages, charging and battery, headphones, Caps Lock and keyboard layout, external drives and screenshots. They appear in the island and stay out of your work.
 
 <p align="center">
-  <img src="assets/agents.png" width="600" alt="Claude и Codex во вкладке острова">
-</p>
-<p align="center">
-  <img src="assets/done.png" width="470" alt="Карточка «Claude закончил»">
+  <img src="assets/volume.png" width="440" alt="Volume in the island">
+  <img src="assets/brightness.png" width="440" alt="Brightness in the island">
 </p>
 
-### 🌤 Когда ничего не играет
-Часы и дата, погода в вашем городе, загрузка процессора и памяти с графиком, заряд батареи и ближайшая встреча из календаря.
+### Claude Code and Codex
+While an agent works, the island shows what it is doing, such as an edit to `Hero.tsx` or a test run, how long it has been at it and how much of your limits is left. When it finishes, you see it.
 
 <p align="center">
-  <img src="assets/idle.png" width="700" alt="Остров без музыки: часы, погода, загрузка Mac">
+  <img src="assets/agents.png" width="600" alt="Claude Code and Codex sessions in the island">
 </p>
 
-### 🧰 И ещё
+### When nothing is playing
+The time and date, the weather in your city, CPU and memory load and the battery, one glance away.
+
+<p align="center">
+  <img src="assets/idle.png" width="700" alt="The island with no music: clock, weather and Mac load">
+</p>
+
+### And more
 | | |
 |---|---|
-| 📋 **История буфера** | Всё скопированное под рукой, ⌃⌥V открывает выбор, закреплённые записи переживают перезапуск |
-| 📥 **Полка и AirDrop** | Перетащите файлы на остров: отправить по AirDrop, сохранить на потом, сжать в ZIP, перевести в PNG/JPEG/HEIC, убрать фон, собрать PDF |
-| ⏱ **Таймер и помидоро** | Отсчёт у выреза, перерывы, звук в конце |
-| ☕️ **Не спать** | Mac не уснёт, пока это нужно: от 15 минут до 5 часов или пока не выключите |
-| 🎙 **Микрофон** | Выключить одной кнопкой или по ⌃⌥M, красный значок, если звонок идёт без звука |
-| 🪞 **Зеркало** | Камера в острове, чтобы проверить себя перед созвоном |
-| 📅 **Встречи** | Напоминание о созвоне с кнопкой «Подключиться» |
-| 💎 **Динамическое стекло** | У выреза остров чёрный, ниже — Liquid Glass |
+| **Clipboard history** | Everything you copied, one shortcut away |
+| **Shelf and AirDrop** | Drop files on the island to keep them handy or send them on |
+| **Timer and Pomodoro** | The countdown lives at the notch |
+| **Keep awake** | Your Mac stays awake for as long as you need |
+| **Microphone** | Mute with one shortcut, with a red dot while you are muted on a call |
+| **Mirror** | A quick camera check before a call |
 
-### ⚙️ Понятные настройки
-Все функции собраны на одной странице: включите нужные, а клик по карточке откроет подробности. У каждой функции свой переключатель.
-
-<p align="center">
-  <img src="assets/settings.png" width="760" alt="Настройки: обзор всех функций">
-</p>
+Every feature has its own switch in Settings.
 
 ---
 
-## 📦 Установка
+## Install
 
-1. Скачайте `Dynamic-Audio-X.Y.zip` из [последнего релиза](https://github.com/5DHelLD5/dynamic-audio-releases/releases/latest).
-2. Распакуйте архив и перетащите **Dynamic Audio.app** в папку **«Программы»**.
-3. Откройте приложение. При первом запуске macOS, скорее всего, его заблокирует. Что делать, написано в разделе [ниже](#-если-приложение-не-открывается).
-4. Откроется помощник первой настройки: отметьте нужные функции, выберите внешний вид и выдайте только те разрешения, которые им нужны. Пройти его заново можно в «Настройки → О программе».
+You need macOS 27 or later on an Apple silicon Mac. The island is made for MacBooks with a notch; on other displays it becomes a glass capsule at the top edge of the screen.
 
-> [!TIP]
-> Обновления приходят сами: Dynamic Audio проверяет новые версии и ставит их в один клик («Настройки → О программе» или меню значка в строке меню). Обновление ставится, только если его подпись совпадает с подписью разработчика.
+1. Download `Dynamic-Audio-X.Y.zip` from the [latest release](https://github.com/5DHelLD5/dynamic-audio-releases/releases/latest).
+2. Unzip it and drag **Dynamic Audio.app** into **Applications**.
+3. Open it. A short setup asks which features you want and only for the permissions they need.
+
+Updates install themselves after a check of the developer's signature.
 
 ---
 
-## 🛠 Если приложение не открывается
+## If it does not open
 
-Dynamic Audio подписан сертификатом разработчика, но не прошёл нотаризацию Apple (для неё нужен платный аккаунт разработчика). Поэтому macOS по-разному не даёт открыть скачанное из интернета приложение. Всё лечится за минуту.
+Dynamic Audio is signed but not yet notarized by Apple, so macOS may block the first launch.
 
-<details open>
-<summary><b>«Приложение “Dynamic Audio” повреждено, и его не удаётся открыть»</b></summary>
+- **"Dynamic Audio is damaged and can't be opened."** It is not damaged. Run this in Terminal, then open the app again:
+  ```bash
+  xattr -cr "/Applications/Dynamic Audio.app"
+  ```
+- **"Apple could not verify it is free of malware."** Open **System Settings → Privacy & Security**, scroll down to Dynamic Audio and click **Open Anyway**.
 
-<br>
+---
 
-Приложение не повреждено: так macOS называет программы из интернета без нотаризации. Откройте **Терминал** («Программы → Утилиты → Терминал»), вставьте команду и нажмите Return:
+## Uninstall
 
-```bash
-xattr -cr "/Applications/Dynamic Audio.app"
-```
+If you connected Claude Code, first open **Settings → Claude and Codex** and click **Disconnect…**. This removes the app's hooks from `~/.claude/settings.json`.
 
-Команда снимает с приложения отметку «скачано из интернета». После неё приложение откроется обычным двойным кликом.
-
-</details>
-
-<details>
-<summary><b>«Не удаётся открыть, так как Apple не может проверить его на наличие вредоносного ПО»</b></summary>
-
-<br>
-
-1. Нажмите «Готово» в этом окне.
-2. Откройте **Системные настройки → Конфиденциальность и безопасность**.
-3. Пролистайте вниз до строки про Dynamic Audio и нажмите **«Всё равно открыть»**, затем подтвердите паролем.
-
-Если кнопки нет, используйте команду из пункта выше: она решает и эту проблему.
-
-</details>
-
-<details>
-<summary><b>Приложение запустилось, но острова не видно</b></summary>
-
-<br>
-
-- Посмотрите на строку меню: если там есть значок звуковой волны, приложение работает. Клик по нему открывает панель, правый клик — меню.
-- На Mac без выреза и на внешнем мониторе включите **«Настройки → Основное → Экраны без выреза»**.
-- В полноэкранных приложениях остров прячется. Это тоже меняется в «Основном».
-- Если ничего не помогло, запустите приложение из Терминала и посмотрите сообщения об ошибках:
-
-```bash
-"/Applications/Dynamic Audio.app/Contents/MacOS/Dynamic Audio"
-```
-
-</details>
-
-<details>
-<summary><b>Визуализатор стоит на месте или рисует «демо»</b></summary>
-
-<br>
-
-Нужно разрешение **«Запись системного звука»**: «Настройки → Разрешения → Разрешить». Если доступ в системных настройках включён, а звук всё равно не виден, сбросьте разрешение и выдайте его заново:
-
-```bash
-tccutil reset AudioCapture com.daniilgaivan.DynamicAudio
-```
-
-</details>
-
-<details>
-<summary><b>Нет «Скопировано»/«Вставлено», не работает вставка из истории</b></summary>
-
-<br>
-
-Нужен **универсальный доступ**: «Системные настройки → Конфиденциальность и безопасность → Универсальный доступ» → включите Dynamic Audio.
-
-Если переключатель уже включён, а приложение пишет, что доступа нет, macOS помнит старую подпись приложения. В Dynamic Audio откройте «Настройки → Разрешения → **Сбросить универсальный доступ**» или выполните:
-
-```bash
-tccutil reset Accessibility com.daniilgaivan.DynamicAudio
-```
-
-После этого включите Dynamic Audio в списке ещё раз.
-
-</details>
-
-<details>
-<summary><b>Не видно музыку из плеера</b></summary>
-
-<br>
-
-Остров показывает то, что macOS знает о текущей музыке. Проверьте, видна ли она в «Пункте управления» (значок ▶︎ в строке меню). Если там пусто, плеер не сообщает системе о музыке. Если в «Настройки → Музыка» задан список скрытых приложений, плеера в нём быть не должно.
-
-</details>
-
-<details>
-<summary><b>Как удалить полностью</b></summary>
-
-<br>
-
-Если подключали Claude Code, сначала нажмите «Настройки → Claude и Codex → **Отключить**»: это уберёт хуки из `~/.claude/settings.json`. Затем выполните:
+The quickest way to remove your data is **Settings → General → Reset all settings…**, then quit the app and move it to the Trash. To remove everything from Terminal instead:
 
 ```bash
 osascript -e 'quit app "Dynamic Audio"'
 rm -rf "/Applications/Dynamic Audio.app"
-rm -rf ~/Library/Application\ Support/Dynamic\ Audio
+rm -rf ~/Library/Application\ Support/Dynamic\ Audio ~/Library/Caches/Dynamic\ Audio
 defaults delete com.daniilgaivan.DynamicAudio
+security delete-generic-password -s com.daniilgaivan.DynamicAudio.yandex-music
 tccutil reset All com.daniilgaivan.DynamicAudio
 ```
 
-</details>
+---
+
+## Permissions
+
+Each permission is asked for only when you turn on the feature that needs it.
+
+| Permission | What for |
+|---|---|
+| System audio recording | The live spectrum |
+| Accessibility | "Copied" and "Pasted", pasting from the history |
+| Calendar | Meeting reminders |
+| Camera | The mirror |
+| Automation of Music | The like button for Apple Music |
 
 ---
 
-## 🔐 Разрешения
+## Privacy
 
-Разрешение нужно, только если включена функция, которая им пользуется. Остров попросит его сам, а в «Настройки → Разрешения» видно, что выдано и зачем.
-
-| Разрешение | Для чего | Когда спросит |
-|---|---|---|
-| 🎧 **Запись системного звука** | Живой визуализатор: спектр считается из звука Mac | При первом запуске визуализатора |
-| ♿️ **Универсальный доступ** | «Скопировано» и «Вставлено», вставка из истории, вырезание файлов в Finder | Когда включаете эти функции |
-| 📅 **Календарь** | Напоминания о встречах | Когда включаете «Встречи» |
-| 📷 **Камера** | «Зеркало» перед созвоном | При первом открытии «Зеркала» |
-| 🎛 **Управление «Музыкой»** | Кнопка «Нравится» для Apple Music | При первом нажатии |
-
-Без разрешений работают: музыка в острове, громкость и яркость, батарея, Caps Lock, раскладка, история буфера, таймеры, погода, Claude и Codex.
+No account, no analytics, no ads. Audio, camera, calendar and clipboard are handled on your Mac only. The app goes online only for lyrics (track title and artist), update checks on GitHub and, once you set them up, the weather (the city name goes to Open-Meteo) and Yandex Music. Each can be switched off in Settings. Details: [PRIVACY.md](PRIVACY.md).
 
 ---
 
-## 🛡 Приватность
+## Help
 
-- Никакой аналитики и рекламы, данные никуда не отправляются.
-- Звук, камера, календарь и буфер обмена обрабатываются только на вашем Mac.
-- В сеть уходят только запросы, без которых функция невозможна:
-  - **тексты песен**: название трека в Яндекс Музыку, LRCLIB или NetEase;
-  - **погода**: только название города в Open-Meteo, без вашего местоположения;
-  - **обновления**: проверка новой версии на GitHub.
-- Claude Code сообщает о себе через локальный сокет, доступный только вашей учётной записи. Codex — через журналы сессий на диске, которые Dynamic Audio только читает.
+- **Something is broken:** check [If it does not open](#if-it-does-not-open), then open a [bug report](https://github.com/5DHelLD5/dynamic-audio-releases/issues/new?template=bug_report.yml) with your Dynamic Audio version (Settings → About) and macOS version.
+- **An idea:** open a [feature request](https://github.com/5DHelLD5/dynamic-audio-releases/issues/new?template=feature_request.yml).
+- **A security issue:** report it privately, see [SECURITY.md](SECURITY.md).
+- **Documents:** [LICENSE.md](LICENSE.md), [PRIVACY.md](PRIVACY.md), [TRADEMARKS.md](TRADEMARKS.md), [SUPPORT.md](SUPPORT.md).
 
 ---
 
-## ❓ Вопросы
+## Support the author
 
-<details>
-<summary><b>Работает ли без выреза?</b></summary>
-<br>
-Да. На Mac без выреза и на внешних мониторах остров становится стеклянной капсулой у верхнего края экрана.
-</details>
+Dynamic Audio is free, with no trial, ads or sign-up. If it earned its place at your notch, you can support the author with any amount. It is voluntary and unlocks nothing.
 
-<details>
-<summary><b>Сильно ли нагружает Mac?</b></summary>
-<br>
-В покое — меньше 1% одного ядра. С живым визуализатором — около 5–7%: анимации считает Core Animation, а не приложение. От батареи можно включить экономию энергии: визуализатор перейдёт на 30 кадров в секунду.
-</details>
+Donations go through [Tribute](https://web.tribute.tg/d/TQG). Pay by card in your browser with just an email address, or right in Telegram.
 
-<details>
-<summary><b>Почему Apple Silicon?</b></summary>
-<br>
-Остров рассчитан на MacBook с вырезом, а такие бывают только на Apple Silicon. Нужна macOS 27 или новее.
-</details>
-
-<details>
-<summary><b>Где сообщить об ошибке или предложить идею?</b></summary>
-<br>
-Создайте <a href="https://github.com/5DHelLD5/dynamic-audio-releases/issues">issue</a>: опишите, что произошло, и приложите версию macOS и Dynamic Audio («Настройки → О программе»).
-</details>
+A star on this repository helps other people find the app too.
 
 ---
 
 <p align="center">
-  <sub>© 2026 Daniil Gaivan. Все права защищены. Здесь только готовые сборки, исходный код закрыт.</sub><br>
-  <sub>Dynamic Island — товарный знак Apple Inc. Dynamic Audio не связан с Apple.</sub>
+  <sub>© 2026 Daniil Gaivan. Free to use, see the <a href="LICENSE.md">license</a>. This repository holds releases only; the source code is closed.</sub><br>
+  <sub>Apple, Mac, MacBook and macOS are trademarks of Apple Inc. Claude belongs to Anthropic and Codex to OpenAI. Dynamic Audio is not affiliated with them.</sub>
 </p>

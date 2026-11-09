@@ -1,0 +1,19 @@
+name: Feature request · Идея
+description: Suggest something new or a better way to do something. · Предложите новое или как сделать удобнее.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would it solve? · Какую задачу это решит?
+      description: Describe the situation, not only the solution. · Опишите ситуацию, а не только решение.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: How do you see it? · Как вы это видите?
+  - type: textarea
+    id: extra
+    attributes:
+      label: Examples or sketches · Примеры и наброски
