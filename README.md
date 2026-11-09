@@ -42,43 +42,64 @@
 ## What it does
 
 ### Music
-- The cover and a **live spectrum** right at the notch. The spectrum comes from your Mac's actual audio, measured as it plays and never recorded.
+- The cover and a **live spectrum** right at the notch, in 23 styles. The spectrum comes from your Mac's actual audio, measured as it plays and never recorded.
 - An expanded player with seeking, volume, likes, AirPlay and a sleep timer that fades out.
+- **Lyrics** that fill with color as they are sung, under the notch or in the player.
+- **Stage**: when your Mac sits idle while music plays, the screen turns into a stage with the cover, the lyrics and the visualizer.
+- **Music stats**: how much you listened this week, your top tracks and artists.
 - Works with any player macOS shows in Control Center.
 
-### HUDs worth looking at
-Volume and brightness with a scale and percentages, charging and battery, headphones, Caps Lock and keyboard layout, external drives and screenshots. They appear in the island and stay out of your work.
+### Claude Code and Codex
+While an agent works, the island shows what it is doing, how long it has been at it and how much of your limits is left. When Claude asks for permission, you can allow or deny it right from the island. When it finishes, you see it.
 
 <p align="center">
-  <img src="assets/volume.png" width="440" alt="Volume in the island">
-  <img src="assets/brightness.png" width="440" alt="Brightness in the island">
+  <img src="assets/agents-en.png" width="588" alt="Three Claude Code sessions with their current steps, and the Claude and Codex limits">
 </p>
 
-### Claude Code and Codex
-While an agent works, the island shows what it is doing, such as an edit to `Hero.tsx` or a test run, how long it has been at it and how much of your limits is left. When it finishes, you see it.
+<p align="center">
+  <img src="assets/done-en.png" width="457" alt="Claude finished in weather-app, last step: an edit to ContentView.swift">
+</p>
+
+### HUDs worth looking at
+Volume and brightness with a scale, headphones with the battery of each bud, meetings with a Join button, a mouse or keyboard running low, external drives, timers, Caps Lock and the keyboard layout. They appear in the island and stay out of your way.
 
 <p align="center">
-  <img src="assets/agents.png" width="600" alt="Claude Code and Codex sessions in the island">
+  <img src="assets/volume-en.png" width="415" alt="Volume at 62">
+  <img src="assets/brightness-en.png" width="415" alt="Brightness at 80">
+</p>
+
+<p align="center">
+  <img src="assets/headphones-en.png" width="436" alt="AirPods Pro connected, with the battery of each bud and the case">
+  <img src="assets/event-en.png" width="457" alt="A team call in 5 minutes, with a Join button">
+</p>
+
+<p align="center">
+  <img src="assets/mouse-en.png" width="366" alt="Magic Mouse battery almost empty">
+  <img src="assets/timer-en.png" width="383" alt="A 25-minute timer at the notch">
 </p>
 
 ### When nothing is playing
 The time and date, the weather in your city, CPU and memory load and the battery, one glance away.
-
-<p align="center">
-  <img src="assets/idle.png" width="700" alt="The island with no music: clock, weather and Mac load">
-</p>
 
 ### And more
 | | |
 |---|---|
 | **Clipboard history** | Everything you copied, one shortcut away |
 | **Shelf and AirDrop** | Drop files on the island to keep them handy or send them on |
+| **Downloads and scripts** | Browser downloads and any command's progress at the notch |
+| **External drives** | A card when a drive connects, and eject from the island |
 | **Timer and Pomodoro** | The countdown lives at the notch |
 | **Keep awake** | Your Mac stays awake for as long as you need |
 | **Microphone** | Mute with one shortcut, with a red dot while you are muted on a call |
 | **Mirror** | A quick camera check before a call |
+| **English and Russian** | Follows your system language, or pick one in Settings |
 
-Every feature has its own switch in Settings.
+### Settings that explain themselves
+Every feature has its own switch, and the Overview page shows them all at once.
+
+<p align="center">
+  <img src="assets/settings-en.png" width="700" alt="Dynamic Audio settings, the Overview page">
+</p>
 
 ---
 
