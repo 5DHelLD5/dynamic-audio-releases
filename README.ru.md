@@ -159,11 +159,7 @@ xattr -cr "/Applications/Dynamic Audio.app"
 
 <br>
 
-Нужно разрешение **«Запись системного звука»**: «Настройки → Разрешения → Разрешить». Если доступ в системных настройках включён, а звук всё равно не виден, сбросьте разрешение и выдайте его заново:
-
-```bash
-tccutil reset AudioCapture com.daniilgaivan.DynamicAudio
-```
+Нужно разрешение **«Запись системного звука»**: «Настройки → Разрешения → Разрешить». Если доступ в системных настройках включён, а звук всё равно не виден, в «Системные настройки → Конфиденциальность и безопасность» найдите раздел записи экрана и системного звука, удалите оттуда Dynamic Audio кнопкой «−» и выдайте разрешение заново в «Настройки → Разрешения».
 
 </details>
 
@@ -174,13 +170,7 @@ tccutil reset AudioCapture com.daniilgaivan.DynamicAudio
 
 Нужен **универсальный доступ**: «Системные настройки → Конфиденциальность и безопасность → Универсальный доступ» → включите Dynamic Audio.
 
-Если переключатель уже включён, а приложение пишет, что доступа нет, macOS помнит старую подпись приложения. В Dynamic Audio откройте «Настройки → Разрешения → **Сбросить универсальный доступ**» или выполните:
-
-```bash
-tccutil reset Accessibility com.daniilgaivan.DynamicAudio
-```
-
-После этого включите Dynamic Audio в списке ещё раз.
+Если переключатель уже включён, а приложение пишет, что доступа нет, macOS помнит старую подпись приложения. В Dynamic Audio откройте «Настройки → Разрешения → **Сбросить универсальный доступ**», а потом включите Dynamic Audio в списке ещё раз.
 
 </details>
 
@@ -198,18 +188,9 @@ tccutil reset Accessibility com.daniilgaivan.DynamicAudio
 
 <br>
 
-Если подключали Claude Code, сначала нажмите «Настройки → Claude и Codex → **Отключить**»: это уберёт хуки из `~/.claude/settings.json`. Затем выполните:
+Если подключали Claude Code, сначала нажмите «Настройки → Claude и Codex → **Отключить…**»: это уберёт хуки из `~/.claude/settings.json`.
 
-Проще всего стереть данные кнопкой «Настройки → Основное → **Сбросить все настройки…**», а потом закрыть программу и перенести её в Корзину. Или всё сразу из Терминала:
-
-```bash
-osascript -e 'quit app "Dynamic Audio"'
-rm -rf "/Applications/Dynamic Audio.app"
-rm -rf ~/Library/Application\ Support/Dynamic\ Audio ~/Library/Caches/Dynamic\ Audio
-defaults delete com.daniilgaivan.DynamicAudio
-security delete-generic-password -s com.daniilgaivan.DynamicAudio.yandex-music
-tccutil reset All com.daniilgaivan.DynamicAudio
-```
+Затем нажмите «Настройки → Основное → **Сбросить все настройки…**». Это удалит настройки, вход в Яндекс Музыку, закреплённое в буфере, копии файлов с полки, статистику прослушивания и кеш. Программа перезапустится чистой: закройте её через меню в строке меню и перенесите из «Программ» в Корзину.
 
 </details>
 
@@ -293,6 +274,6 @@ Dynamic Audio бесплатный: без рекламы, регистраци�
 ---
 
 <p align="center">
-  <sub>© 2026 Daniil Gaivan. Программа бесплатная, условия в <a href="LICENSE.md">лицензии</a>. Здесь только готовые сборки, исходный код закрыт.</sub><br>
+  <sub>© 2026 5DHelLD5. Программа бесплатная, условия в <a href="LICENSE.md">лицензии</a>. Здесь только готовые сборки, исходный код закрыт.</sub><br>
   <sub>Apple, Mac, MacBook и macOS — товарные знаки Apple Inc., Claude принадлежит Anthropic, Codex — OpenAI. Dynamic Audio с ними не связан.</sub>
 </p>

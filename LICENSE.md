@@ -1,6 +1,6 @@
 # Dynamic Audio License
 
-Copyright © 2026 Daniil Gaivan. All rights reserved.
+Copyright © 2026 5DHelLD5. All rights reserved.
 
 Dynamic Audio is free to use. By installing or running it you accept these terms.
 

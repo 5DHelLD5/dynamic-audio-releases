@@ -110,16 +110,7 @@ Dynamic Audio is signed but not yet notarized by Apple, so macOS may block the f
 
 If you connected Claude Code, first open **Settings → Claude and Codex** and click **Disconnect…**. This removes the app's hooks from `~/.claude/settings.json`.
 
-The quickest way to remove your data is **Settings → General → Reset all settings…**, then quit the app and move it to the Trash. To remove everything from Terminal instead:
-
-```bash
-osascript -e 'quit app "Dynamic Audio"'
-rm -rf "/Applications/Dynamic Audio.app"
-rm -rf ~/Library/Application\ Support/Dynamic\ Audio ~/Library/Caches/Dynamic\ Audio
-defaults delete com.daniilgaivan.DynamicAudio
-security delete-generic-password -s com.daniilgaivan.DynamicAudio.yandex-music
-tccutil reset All com.daniilgaivan.DynamicAudio
-```
+Then click **Settings → General → Reset all settings…**. This deletes your settings, the Yandex Music sign-in, pinned clipboard items, shelf copies, listening stats and caches. Dynamic Audio restarts clean: quit it from its menu bar menu and move it from Applications to the Trash.
 
 ---
 
@@ -163,6 +154,6 @@ A star on this repository helps other people find the app too.
 ---
 
 <p align="center">
-  <sub>© 2026 Daniil Gaivan. Free to use, see the <a href="LICENSE.md">license</a>. This repository holds releases only; the source code is closed.</sub><br>
+  <sub>© 2026 5DHelLD5. Free to use, see the <a href="LICENSE.md">license</a>. This repository holds releases only; the source code is closed.</sub><br>
   <sub>Apple, Mac, MacBook and macOS are trademarks of Apple Inc. Claude belongs to Anthropic and Codex to OpenAI. Dynamic Audio is not affiliated with them.</sub>
 </p>

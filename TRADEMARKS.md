@@ -1,6 +1,6 @@
 # Trademarks
 
-The Dynamic Audio name, icon and look belong to Daniil Gaivan. The [license](LICENSE.md) lets you use the app; it gives no right to use the name or the icon.
+The Dynamic Audio name, icon and look belong to its author, 5DHelLD5. The [license](LICENSE.md) lets you use the app; it gives no right to use the name or the icon.
 
 ## Official builds
 
