@@ -151,7 +151,7 @@ Each permission is asked for only when you turn on the feature that needs it.
 
 ## Privacy
 
-No account, no analytics, no ads. Audio, camera, calendar and clipboard are handled on your Mac only. The app goes online only for lyrics (track title and artist), update checks on GitHub and, once you set them up, the weather (the city name goes to Open-Meteo) and Yandex Music. Each can be switched off in Settings. Details: [PRIVACY.md](PRIVACY.md).
+No account, no analytics, no ads. Audio, camera, calendar and clipboard are handled on your Mac only. The app goes online only for lyrics (track title and artist), update checks on GitHub and, once you set them up, the weather (the city name goes to Open-Meteo), Yandex Music and the Stage's sharp cover (track title and artist go to Yandex Music if you signed in, otherwise to Apple's catalog). Each can be switched off in Settings. Details: [PRIVACY.md](PRIVACY.md).
 
 ---
 

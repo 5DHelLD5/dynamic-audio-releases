@@ -18,6 +18,7 @@ The app talks to these services directly from your Mac. The author does not see 
 | Lyrics | LRCLIB, NetEase Cloud Music, Yandex Music if you signed in | Track title and artist | On from the start, while music plays |
 | Updates | GitHub | A request for the latest version | On from the start, every few hours |
 | Weather | Open-Meteo | The city name you entered | After you enter a city |
+| Sharp cover on the Stage | Yandex Music if you signed in, otherwise Apple (iTunes Search) | Track title and artist | While the Stage you turned on is open and the player's cover is small |
 | Yandex Music | Yandex | Requests with your token, which is kept in the Keychain | After you sign in |
 
 Each of these can be switched off in Settings.
